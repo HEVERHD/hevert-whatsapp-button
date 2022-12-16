@@ -4,11 +4,12 @@ This component allows users write direct whatsapp messages. You can set image lo
 
 ### Button example
 
-![preview](../assets/img/wp-button.png)
+![preview](../assets/whatsapp.png)
+![preview](../assets/whatsapp-2.png)
 
 ### Example redirect button
 
-![preview](../assets/img/wp-page.png)
+![preview](../assets/whatsapp%20page.png)
 
 ## Configuration
 
@@ -31,10 +32,11 @@ Then, access the repository's directory using your terminal.
 ### **Step 3** - Edit manifest.json
 
 Go to the manifest.json file and change the following values:
+
 - Vendor
 - Name
 - Version (If it's different than example)
-- Title 
+- Title
 - Description
 
 ```json
@@ -52,10 +54,12 @@ Go to the manifest.json file and change the following values:
   }
 }
 ```
+
 ---
 
 ### **Step 4** -Install dependencies
-  We need to access the terminal and go to `react` folder. Now we have to run `Yarn` and install all required dependencies for this component.
+
+We need to access the terminal and go to `react` folder. Now we have to run `Yarn` and install all required dependencies for this component.
 
 ---
 
@@ -63,7 +67,7 @@ Go to the manifest.json file and change the following values:
 
 Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command.
 
-If the process runs without any errors, the following message will be displayed: `Sending local change event`. 
+If the process runs without any errors, the following message will be displayed: `Sending local change event`.
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
@@ -98,6 +102,7 @@ This will enable you to see the applied changes in real time, through the accoun
   }
 }
 ```
+
 ---
 
 ### **Step 7** - Check the app is connected
